@@ -17,16 +17,16 @@ choices.forEach(function(element){
             case"paperrock":
             userResult++;
             userSpan.innerHTML = userResult;
-            resutlText.innerHTML = "You win 🔥🔥🔥";
+            resutlText.innerHTML = "You win 🔥\nComputer loses";
             break;
             case"scissorsrock":
             case"paperscissors":
             case"rockpaper":
             compResult++;
             compSpan.innerHTML = compResult;
-            resutlText.innerHTML = "You lose . . .";
+            resutlText.innerHTML = "You lose . . .\nCompuer wins.";
             break;
-            default: resutlText.innerHTML = "It's a draw...";
+            default: resutlText.innerHTML = "It's a draw...\nTry again.";
         }
     })
 });
