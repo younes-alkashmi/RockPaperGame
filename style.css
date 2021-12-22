@@ -32,6 +32,12 @@ header {
     font-size: 40px;
 }
 
+@media (max-width:768px) {
+    .result {
+        font-size: 30px;
+    }
+}
+
 .user {
     position: absolute;
     background-color: tomato;
